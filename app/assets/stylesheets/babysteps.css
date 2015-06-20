@@ -1,0 +1,103 @@
+/* 
+    Created on : Jun 10, 2015, 8:27:22 PM
+    Author     : Charles Sloan
+*/
+body 
+{
+  width: 989px;
+  margin: 0 auto;
+  font: 18px San Pro;
+  padding-bottom: 1px;
+  -webkit-font-smoothing: antialiased;
+  background-color:#bbbfc2;
+}
+
+	
+#main
+{
+    position:fixed;
+    z-index:-1;
+    float:left;
+    margin: 0px 15% 0px 15%;
+    background:white;
+
+}
+
+/*****Top *****/ 
+
+#header-img {
+    background-image:url(../images/header_text.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:987px;
+    height:275px;
+    margin-top:0px;
+    background-color:white;  
+}
+
+#spacer {
+    height: 110px;
+    width:  200px;
+    margin-top:0;
+    background-color:#d1d5d6;
+    
+}
+/****** Menu **********/
+
+#content {
+    background: white;
+    margin: 1px 1px 1px 1px;
+    height: 725px;
+    box-shadow: 3px 3px 3px 3px #8d8b8b;
+}
+a {
+    text-align: center;
+    display: block;
+    width: 10em;
+    text-decoration: none;
+}
+
+
+#heading {
+    position:absolute;
+    z-index:0;
+    text-align:left;
+}
+p {
+    font-size:18px;
+    font-family:San Pro; 
+}
+#b1 {
+   color:blue;
+   font-style:italic;
+}
+#b2 {
+    
+    color:blue;
+    font-style:italic;
+} 
+#b3 {
+ 
+    color:blue;
+    font-style:italic;
+}
+#b4 {
+ 
+    color:blue;
+    font-style:italic;
+}
+#b5 {
+  
+    color:blue;
+    font-style:italic;
+}
+#b6 {
+ 
+    color:blue;
+    font-style:italic;
+}
+#b7 {
+
+    color:blue;
+    font-style:italic;
+}

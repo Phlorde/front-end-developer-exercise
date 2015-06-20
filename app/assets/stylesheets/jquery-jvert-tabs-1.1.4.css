@@ -1,0 +1,187 @@
+.vtabs {
+	/* a border is required for IE otherwise the tab panels will not be aligned correctly. */
+	position: relative;  border: 1px solid #ffffff;
+
+}
+.vtabs .vtabs-tab-column {
+	position: absolute;
+	left: 0;
+	margin: 0;
+	width: 200px;
+	min-width: 175px;
+	background: rgb(209,213,214); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgba(209,213,214,1) 95%, rgba(98,100,102,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(95%,rgba(209,213,214,1)), color-stop(100%,rgba(98,100,102,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  rgba(209,213,214,1) 95%,rgba(98,100,102,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  rgba(209,213,214,1) 95%,rgba(98,100,102,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  rgba(209,213,214,1) 95%,rgba(98,100,102,1) 100%); /* IE10+ */
+	background: linear-gradient(to right,  rgba(209,213,214,1) 95%,rgba(98,100,102,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d5d6', endColorstr='#626466',GradientType=1 ); /* IE6-9 */
+
+
+}
+
+.vtabs .vtabs-tab-column ul {
+	list-style: none;
+	margin: -1px;
+	padding: 0px;
+	height:360px;
+	
+}
+/* css for tab that is open */
+.vtabs .vtabs-tab-column ul li.open, .vtabs .vtabs-tab-column ul li.closed {
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding-left: 0px;
+	padding-right: 25px;
+	padding-bottom: 10px;
+	padding-top: 5px;
+
+}
+/* css for tab that is closed */
+.vtabs .vtabs-tab-column ul li.closed {
+	background-color:transparent;
+	width:175px;
+	border-bottom:1px solid #FFF;	
+}
+
+
+/* css for link on tab that's open */
+.vtabs .vtabs-tab-column ul li a.open, .vtabs .vtabs-tab-column ul li a.closed {
+	font: 18px Sans Pro, Regular;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	color: #36abe1;
+
+
+	
+}
+
+.bstep1 a.open
+{
+	background-image:url(../images/Button1-blue.gif);
+	background-size:contain;
+	background-position:right;
+	background-repeat:no-repeat;
+}
+.bstep1 a.closed {
+
+	background-image:url(../images/Button1-gray.gif);
+	background-size:contain;
+	background-position:right;
+	background-repeat:no-repeat;
+	
+}
+.bstep2 a.open
+{
+	background-image:url(../images/Button2-blue.gif);
+	background-size:contain;
+	background-position:right;
+	background-repeat:no-repeat;
+}
+.bstep2 a.closed {
+
+	background-image:url(../images/Button2-gray.gif);
+	background-size:contain;
+	background-position:right;
+	background-repeat:no-repeat;
+}
+.bstep3 a.open
+{
+	background-image:url(../images/Button3-blue.gif);
+	background-size:contain;
+	background-position:right;
+	background-repeat:no-repeat;
+}
+.bstep3 a.closed {
+
+	background-image:url(../images/Button3-gray.gif);
+	background-size:contain;
+	background-position:right;
+	background-repeat:no-repeat;
+}
+.bstep4 a.open
+{
+	background-image:url(../images/Button4-blue.gif);
+	background-size:contain;
+	background-position:right;
+	background-repeat:no-repeat;
+}
+.bstep4 a.closed {
+
+	background-image:url(../images/Button4-gray.gif);
+	background-size:contain;
+	background-position:right;
+	background-repeat:no-repeat;
+}
+.bstep5 a.open
+{
+	background-image:url(../images/Button5-blue.gif);
+	background-size:contain;
+	background-position:right;
+	background-repeat:no-repeat;
+}
+.bstep5 a.closed {
+
+	background-image:url(../images/Button5-gray.gif);
+	background-size:contain;
+	background-position:right;
+	background-repeat:no-repeat;
+}
+.bstep6 a.open
+{
+	background-image:url(../images/Button6-blue.gif);
+	background-size:contain;
+	background-position:right;
+	background-repeat:no-repeat;
+}
+.bstep6 a.closed {
+
+	background-image:url(../images/Button6-gray.gif);
+	background-size:contain;
+	background-position:right;
+	background-repeat:no-repeat;
+}
+.bstep7 a.open
+{
+	background-image:url(../images/Button7-blue.gif);
+	background-size:contain;
+	background-position:right;
+	background-repeat:no-repeat;
+}
+.bstep7 a.closed {
+
+	background-image:url(../images/Button7-gray.gif);
+	background-size:contain;
+	background-position:right;
+	background-repeat:no-repeat;
+}
+/* css for link on tab that's closed */
+.vtabs .vtabs-tab-column ul li a.closed {
+	color: #9ba0a4;
+	font: 18px Sans Pro, Regular;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+
+}	
+.vtabs .vtabs-content-column {
+	padding: 0px;
+	margin: 0px;
+	
+}
+/* css for the content panels */
+.vtabs .vtabs-content-column .vtabs-content-panel {
+	background-color: #ffffff;
+	padding-left: 74px;
+	padding-right: 7px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin: 1px;
+
+
+
+}
